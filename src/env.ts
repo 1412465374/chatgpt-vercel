@@ -6,7 +6,7 @@ import type { Model } from "./types"
  */
 export const defaultEnv = {
   CLIENT_GLOBAL_SETTINGS: {
-    APIKey: "",
+    APIKey: "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",
     password: "",
     enterToSend: true
   },
@@ -30,7 +30,7 @@ export const defaultEnv = {
     "gpt-4-32k": 32 * 1024
   } as Record<Model, number>,
   OPENAI_API_BASE_URL: "api.openai.com",
-  OPENAI_API_KEY: "",
+  OPENAI_API_KEY: "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",
   TIMEOUT: 30000,
   PASSWORD: "",
   SEND_KEY: "",
